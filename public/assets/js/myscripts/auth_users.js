@@ -77,7 +77,7 @@ function sendToServer() {
                     otladka.innerHTML = response;
                     switch (response) {
                         case 'ok'    :
-                            window.location = 'private.php';
+                            window.location = 'cabinet_view.php';
                             authStatus.text('Добро пожаловать');
                             break;
                         case 'wrong_pw' :

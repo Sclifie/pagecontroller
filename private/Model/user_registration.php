@@ -25,7 +25,7 @@ function user_reg(){
                     'userLogin' => $json_array['userLogin'],
                      'userPassword' => $json_array['userPassword'],
                       'userGroup' => $json_array['userGroup'] = 'user',
-                      'userImg' => $json_array['img'] =  'img/' . $id . '.png',
+                      'userImg' => $json_array['images'] =  'images/' . $id . '.png',
                        'userFrstName' => $json_array['name'] = 'name',
                         'userSurName' => $json_array['sur_name'] = 'name2',
                          'userPhone' => $json_array['phone'] = '+7 911 849 0012'

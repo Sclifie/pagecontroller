@@ -2,10 +2,10 @@
     <div class="container">
         <div class="col-xs-12 col-sm-6 no-margin">
             <ul>
-                <li><a href="index.php">Главная</a></li>
-                <li><a href="blog.php">Блог</a></li>
-                <li><a href="faq.php">ЧАВО</a></li>
-                <li><a href="contact.php">Контакты</a></li>
+                <li><a href="/">Главная</a></li>
+                <li><a href="blog/">Блог</a></li>
+                <li><a href="faq/">ЧАВО</a></li>
+                <li><a href="contact/">Контакты</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#pages">Pages</a>
                     <ul class="dropdown-menu" role="menu">
@@ -42,8 +42,8 @@
                     </ul>
                 </li>
                 <!-- TODO: ЧЕК СЕССИИ -->
-                <?php if (isset($_SESSION['auth']) == true) : ?>
-                <li><a href="private/">Ваш Аккаунт <?php echo $_SESSION['login']; ?></a></li>
+                <?php if (isset($auth_status_data) == true) : ?>
+                <li><a href="private/">Ваш Аккаунт <?php echo $login_name_data; ?></a></li>
                 <? else : ?>
                 <li><a href="myauth/">Регистрация</a></li>
                 <li><a href="myauth/">Логин</a></li>

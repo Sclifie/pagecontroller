@@ -1,4 +1,0 @@
-<?php ?>
-footer
-</body>
-</html>
