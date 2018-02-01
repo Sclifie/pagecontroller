@@ -3,9 +3,9 @@
         <div class="col-xs-12 col-sm-6 no-margin">
             <ul>
                 <li><a href="/">Главная</a></li>
-                <li><a href="blog/">Блог</a></li>
-                <li><a href="faq/">ЧАВО</a></li>
-                <li><a href="contact/">Контакты</a></li>
+                <li><a href="blog">Блог</a></li>
+                <li><a href="faq">ЧАВО</a></li>
+                <li><a href="contact">Контакты</a></li>
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#pages">Pages</a>
                     <ul class="dropdown-menu" role="menu">
