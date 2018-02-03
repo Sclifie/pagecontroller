@@ -1,12 +1,3 @@
-<?php session_start();
- setcookie(
-         'new_cookie',
-         'true',
-         time() + 3600
-     );
- var_dump($_SESSION);
-?>
-<?php include 'header.php' ?>
 <?php include 'menu.php' ?>
 <main id="authentication" class="inner-bottom-md">
     <div class="container">
@@ -106,7 +97,4 @@
 
     </div>
 </main><!-- /.authentication -->
-<script src="assets/js/dist/jquery.validate.min.js"></script>
-<script src="assets/js/auth_users.js"></script>
-<script src="assets/js/reg_users.js"></script>
 <?php include 'footer.php'?>

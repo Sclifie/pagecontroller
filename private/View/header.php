@@ -12,6 +12,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
         <script src="assets/js/lib/jquery-3.3.1.js" ></script>
         <script src="assets/js/lib/bootstrap.js"></script>
+        <script src="assets/js/dist/jquery.validate.min.js"></script>
+        <script src="assets/js/auth_users.js"></script>
+        <script src="assets/js/reg_users.js"></script>
 		<!-- Favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">

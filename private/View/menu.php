@@ -42,11 +42,11 @@
                     </ul>
                 </li>
                 <!-- TODO: ЧЕК СЕССИИ -->
-                <?php if (isset($auth_status_data) == true) : ?>
-                <li><a href="private/">Ваш Аккаунт <?php echo $login_name_data; ?></a></li>
+                <?php if (!($auth_status_data === true)) : ?>
+                <li><a href="private/">Ваш Аккаунт <?php echo $login_name_data ?></a></li>
                 <? else : ?>
-                <li><a href="myauth/">Регистрация</a></li>
-                <li><a href="myauth/">Логин</a></li>
+                <li><a href="auth">Регистрация</a></li>
+                <li><a href="auth">Логин</a></li>
                 <?php endif; ?>
             </ul>
         </div><!-- /.col -->

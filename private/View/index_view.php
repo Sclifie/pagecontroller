@@ -1,3 +1,3 @@
-<? include_once 'menu.php' ?>
-<?php echo 'index'; ?>
-<? include_once 'footer.php'?>
+<? include_once 'menu.php'; ?>
+<? include_once 'footer.php';?>
+

@@ -1,4 +1,5 @@
 jQuery(document).ready(function () {
+    console.log('hello');
     'use strict';
     let self = this;
     let tryCount = 0;
@@ -38,7 +39,7 @@ jQuery('#auth_form').validate(
 
         invalidHandler : function (event, validator) {
             localStorage.setItem('trying', tryCount++);
-            console.log(localStorage.getItem('tryCount'));
+            console.log(localStorage.getItem('trying'));
             jQuery('#auth_status').text('Проверьте все поля на корректность');
             jQuery('#auth_status').addClass('statuserr');
         },
@@ -70,7 +71,7 @@ function sendToServer() {
             userAuthData = 'reg_users_data=' + JSON.stringify(userAuthData);
             console.log('JSON reg_user_data \n',userAuthData);
             jQuery.ajax({
-                url: 'Model/auth_users.php',
+                url: '/auth',
                 type: 'post',
                 data: userAuthData,
                 success: function (response) {
